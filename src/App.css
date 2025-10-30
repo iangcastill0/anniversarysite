@@ -1,38 +1,127 @@
 .App {
-  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+  position: relative;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
+.App::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    radial-gradient(2px 2px at 20% 30%, white, transparent),
+    radial-gradient(2px 2px at 60% 70%, white, transparent),
+    radial-gradient(1px 1px at 50% 50%, white, transparent),
+    radial-gradient(1px 1px at 80% 10%, white, transparent),
+    radial-gradient(2px 2px at 90% 60%, white, transparent),
+    radial-gradient(1px 1px at 33% 80%, white, transparent);
+  background-size: 200% 200%;
+  animation: stars 20s ease-in-out infinite;
+  opacity: 0.5;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes stars {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-20px);
+    opacity: 0.8;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.anniversary-container {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 2rem;
+}
+
+.anniversary-header {
+  text-align: center;
+  padding: 3rem 2rem 2rem;
+  color: #fff;
+}
+
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin: 0 0 1rem 0;
+  letter-spacing: 4px;
+  background: linear-gradient(135deg, #fbbf24, #f59e0b, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 3s ease-in-out infinite;
+  background-size: 200% 200%;
+}
+
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 0;
+  opacity: 0.9;
+  letter-spacing: 2px;
+  color: #e2e8f0;
+}
+
+.star-map-upload-section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 1rem 0;
+}
+
+.star-map-upload-button {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
   color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+  letter-spacing: 1px;
 }
 
-.App-link {
-  color: #61dafb;
+.star-map-upload-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.anniversary-footer {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-style: italic;
+  opacity: 0.8;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2.5rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .anniversary-header {
+    padding: 2rem 1rem 1rem;
   }
 }
