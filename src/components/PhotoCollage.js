@@ -7,42 +7,42 @@ const INITIAL_COLLAGES = [
     id: 'collage1',
     title: 'Our Silly Moments',
     photos: [
-      { id: 'photo1-1', url: `${process.env.PUBLIC_URL}/images/IMG_6798.png`, description: '', rotation: 0 },
-      { id: 'photo1-2', url: `${process.env.PUBLIC_URL}/images/IMG_7017.png`, description: '', rotation: 0 },
-      { id: 'photo1-3', url: `${process.env.PUBLIC_URL}/images/IMG_7094.png`, description: '', rotation: 90 },
-      { id: 'photo1-4', url: `${process.env.PUBLIC_URL}/images/IMG_7200.png`, description: '', rotation: 0 },
-      { id: 'photo1-5', url: `${process.env.PUBLIC_URL}/images/IMG_7620.png`, description: '', rotation: 0 },
+      { id: 'photo1-1', url: `${process.env.PUBLIC_URL}/images/IMG_6798.png`, description: 'Our special kiss tehehehe', rotation: 0 },
+      { id: 'photo1-2', url: `${process.env.PUBLIC_URL}/images/IMG_7017.png`, description: 'When were not allowed in bed because were stinky', rotation: 0 },
+      { id: 'photo1-3', url: `${process.env.PUBLIC_URL}/images/IMG_7094.png`, description: 'When we are feeling goofy ', rotation: 90 },
+      { id: 'photo1-4', url: `${process.env.PUBLIC_URL}/images/IMG_7200.png`, description: 'Our snapchat filter sessions', rotation: 0 },
+      { id: 'photo1-5', url: `${process.env.PUBLIC_URL}/images/IMG_7620.png`, description: 'Getting our morning goofies out', rotation: 0 },
     ]
   },
   {
     id: 'collage2',
     title: 'US CRUISIN & BOOZIN',
     photos: [
-      { id: 'photo2-1', url: `${process.env.PUBLIC_URL}/images/IMG_3936.png`, description: '', rotation: 0 },
-      { id: 'photo2-2', url: `${process.env.PUBLIC_URL}/images/IMG_4309.png`, description: '', rotation: 0 },
-      { id: 'photo2-3', url: `${process.env.PUBLIC_URL}/images/IMG_8112.png`, description: '', rotation: 0 },
-      { id: 'photo2-4', url: `${process.env.PUBLIC_URL}/images/IMG_8143.png`, description: '', rotation: 0 },
-      { id: 'photo2-5', url: `${process.env.PUBLIC_URL}/images/IMG_8144.png`, description: '', rotation: 0 },
-      { id: 'photo2-6', url: `${process.env.PUBLIC_URL}/images/IMG_8196.png`, description: '', rotation: 0 },
+      { id: 'photo2-1', url: `${process.env.PUBLIC_URL}/images/IMG_3936.png`, description: 'White night for me but you didnt want to join ', rotation: 0 },
+      { id: 'photo2-2', url: `${process.env.PUBLIC_URL}/images/IMG_4309.png`, description: 'whhite night for you but on the wrong night ahahah', rotation: 0 },
+      { id: 'photo2-3', url: `${process.env.PUBLIC_URL}/images/IMG_8112.png`, description: 'leaving port woot woot', rotation: 0 },
+      { id: 'photo2-4', url: `${process.env.PUBLIC_URL}/images/IMG_8143.png`, description: 'first night roaming around the boat ', rotation: 0 },
+      { id: 'photo2-5', url: `${process.env.PUBLIC_URL}/images/IMG_8144.png`, description: 'taking lots of pics because you look so beautiful ', rotation: 0 },
+      { id: 'photo2-6', url: `${process.env.PUBLIC_URL}/images/IMG_8196.png`, description: '5 min before i got asked if i wanted to buy coke...', rotation: 0 },
     ]
   },
   {
     id: 'collage3',
     title: "OUR FIRST VALENTINE'S DAY",
     photos: [
-      { id: 'photo3-1', url: `${process.env.PUBLIC_URL}/images/IMG_8298.png`, description: '', rotation: 0 },
+      { id: 'photo3-1', url: `${process.env.PUBLIC_URL}/images/IMG_8298.png`, description: 'Our First Valentines day and the day i told you i loved you for the first time ', rotation: 0 },
     ]
   },
   {
     id: 'collage4',
     title: 'US BEING US',
     photos: [
-      { id: 'photo4-1', url: `${process.env.PUBLIC_URL}/images/IMG_5945.png`, description: '', rotation: 0 },
-      { id: 'photo4-2', url: `${process.env.PUBLIC_URL}/images/IMG_6447.png`, description: '', rotation: 0 },
-      { id: 'photo4-3', url: `${process.env.PUBLIC_URL}/images/IMG_6564.png`, description: '', rotation: 90 },
-      { id: 'photo4-4', url: `${process.env.PUBLIC_URL}/images/IMG_6780.png`, description: '', rotation: 0 },
-      { id: 'photo4-5', url: `${process.env.PUBLIC_URL}/images/IMG_7549.png`, description: '', rotation: 0 },
-      { id: 'photo4-6', url: `${process.env.PUBLIC_URL}/images/IMG_7850.png`, description: '', rotation: 0 },
+      { id: 'photo4-1', url: `${process.env.PUBLIC_URL}/images/IMG_5945.png`, description: 'the day i asked you to be my girlfriend', rotation: 0 },
+      { id: 'photo4-2', url: `${process.env.PUBLIC_URL}/images/IMG_6447.png`, description: 'went to the springs and walked the trails ', rotation: 0 },
+      { id: 'photo4-3', url: `${process.env.PUBLIC_URL}/images/IMG_6564.png`, description: 'standing our ground at the NO KINGS protest', rotation: 90 },
+      { id: 'photo4-4', url: `${process.env.PUBLIC_URL}/images/IMG_6780.png`, description: 'our first hawkers together', rotation: 0 },
+      { id: 'photo4-5', url: `${process.env.PUBLIC_URL}/images/IMG_7549.png`, description: 'just us being adorable', rotation: 0 },
+      { id: 'photo4-6', url: `${process.env.PUBLIC_URL}/images/IMG_7850.png`, description: 'us at the beach on a horribly windy day', rotation: 0 },
     ]
   },
 ];

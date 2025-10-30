@@ -102,6 +102,37 @@
   box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6);
 }
 
+.closing-message {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.closing-paragraph {
+  font-size: 1.3rem;
+  line-height: 2;
+  color: #e2e8f0;
+  margin-bottom: 3rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  text-align: justify;
+}
+
+.closing-title {
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 6px;
+  background: linear-gradient(135deg, #fbbf24, #f59e0b, #ec4899, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 4s ease-in-out infinite;
+  background-size: 200% 200%;
+  text-transform: uppercase;
+}
+
 .anniversary-footer {
   text-align: center;
   padding: 3rem 2rem;
@@ -123,5 +154,16 @@
 
   .anniversary-header {
     padding: 2rem 1rem 1rem;
+  }
+
+  .closing-paragraph {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+  }
+
+  .closing-title {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
   }
 }
